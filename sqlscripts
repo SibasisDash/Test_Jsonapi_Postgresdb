@@ -1,0 +1,7 @@
+select * from currency;
+
+select * from hist_data;
+
+select * from hist_data where date > '2020-01-01';
+
+select * from hist_data where inr < 80;

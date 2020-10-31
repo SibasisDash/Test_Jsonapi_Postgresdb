@@ -9,7 +9,7 @@ df.index.name = "Date"
 df_new = pd.json_normalize(df['rates'])
 df_new['Date'] = df.index
 df_new['EUR'] = 1
-df_new = df_new[['Date', 'EUR', 'USD', 'GBP', 'INR', 'CAD', 'NZD', 'JPY']]
+df_new = df_new[['Date', 'EUR', 'USD', 'CAD', 'NZD', 'INR', 'JPY', 'GBP']]
 
 
 conn_cred = {
